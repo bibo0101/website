@@ -97,7 +97,7 @@ const Home = () => {
 
 
 
-
+{/* 
                 <SwiperSlide className="image1">
            <img src={Img1} alt="img" className="p-5 w-100  h-550" />
           <div className="top-left1 text-start">
@@ -112,10 +112,10 @@ const Home = () => {
             <button type="btn"  className="  btn btn-lg  btn-css"><h4 className="p-2 m-0">Enquiry Now</h4></button>
             </div>
           </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
 
 
-      <SwiperSlide className="image1">
+      {/* <SwiperSlide className="image1">
           <img src={Img1} alt="img " className="h-550 w-100" />
           <div className="top-left1 text-start text-white ">
             <h1 className="font-css text-white">Do an Internship with stipend</h1>
@@ -130,7 +130,7 @@ const Home = () => {
             <button type="btn"  className="  btn btn-lg  btn-css"><h4 className="p-2 m-0">Enquiry Now</h4></button>
             </div>
           </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
 
 
       <SwiperSlide className="image1">
