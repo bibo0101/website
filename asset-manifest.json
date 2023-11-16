@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.011bf953.css",
-    "main.js": "/website/static/js/main.7c8b0059.js",
+    "main.css": "/website/static/css/main.569c8b52.css",
+    "main.js": "/website/static/js/main.0a4ddec6.js",
     "static/js/787.42f3db74.chunk.js": "/website/static/js/787.42f3db74.chunk.js",
+    "static/media/boyys.gif": "/website/static/media/boyys.69f0d4cb6ed1a2722e44.gif",
     "static/media/appti.png": "/website/static/media/appti.03542fbdbb4a7bcf8cdd.png",
+    "static/media/zz.gif": "/website/static/media/zz.43f42a0de0f022e3003a.gif",
+    "static/media/blub.gif": "/website/static/media/blub.36a57adcf683386a3409.gif",
     "static/media/jobopening.jpg": "/website/static/media/jobopening.0b7649d60562b78196c5.jpg",
     "static/media/hiring.jpg": "/website/static/media/hiring.f203b91a5e7b9d8b6544.jpg",
+    "static/media/reactjs.gif": "/website/static/media/reactjs.9399472c1dc8060ba591.gif",
     "static/media/softskill.png": "/website/static/media/softskill.d1ba9600d28fe66409b9.png",
     "static/media/Picture2.png": "/website/static/media/Picture2.c1ff786ef881a2d3ad93.png",
     "static/media/bg1.png": "/website/static/media/bg1.b642e8bbbd79cf43c7f7.png",
+    "static/media/Image1.png": "/website/static/media/Image1.cb518188a8bc924e47e8.png",
     "static/media/sql.png": "/website/static/media/sql.3c4e8d489e1d5b7a66c4.png",
     "static/media/interview.jpg": "/website/static/media/interview.9ba89a9a8cd4fe0459e9.jpg",
-    "static/media/bg31.png": "/website/static/media/bg31.aa88c57241fd8cc16f17.png",
     "static/media/placement.jpg": "/website/static/media/placement.b86e41d429af8454bdd8.jpg",
     "static/media/web.png": "/website/static/media/web.35db15a16b8569f9d4d1.png",
     "static/media/django.png": "/website/static/media/django.d20871fc19f83354500c.png",
@@ -22,18 +26,20 @@
     "static/media/java.png": "/website/static/media/java.90b9b98b1d4dce9ffc29.png",
     "static/media/python.png": "/website/static/media/python.76422f71c8662507ec5d.png",
     "static/media/java.webp": "/website/static/media/java.824f1a38833cc6d2dc32.webp",
+    "static/media/java1.jpg": "/website/static/media/java1.6d99e00ffee0fbdffbfb.jpg",
+    "static/media/tally.png": "/website/static/media/tally.ace38979ccb75fc233c9.png",
     "static/media/asp.jpg": "/website/static/media/asp.d255ca7e61d7c1d2f659.jpg",
     "static/media/slick.svg": "/website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/website/index.html",
-    "main.011bf953.css.map": "/website/static/css/main.011bf953.css.map",
-    "main.7c8b0059.js.map": "/website/static/js/main.7c8b0059.js.map",
+    "main.569c8b52.css.map": "/website/static/css/main.569c8b52.css.map",
+    "main.0a4ddec6.js.map": "/website/static/js/main.0a4ddec6.js.map",
     "787.42f3db74.chunk.js.map": "/website/static/js/787.42f3db74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.011bf953.css",
-    "static/js/main.7c8b0059.js"
+    "static/css/main.569c8b52.css",
+    "static/js/main.0a4ddec6.js"
   ]
 }
