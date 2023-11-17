@@ -19,10 +19,11 @@ const Header = () => {
                     </div>
                     <div className="col-md-4 p-1">
                     <h6 className="text-white  text-end m-0"> 
-                    <a href="https://www.facebook.com/appteknowcareers" className="px-3 text-white f-19"><FaFacebookSquare /></a>
-                    <a href="https://www.instagram.com/appteknowcareers/"  className="px-3 text-white f-19"><FaInstagramSquare /></a>
-                    <a href="https://www.linkedin.com/company/appteknowcareers"   className="px-3 text-white f-19"><FaLinkedinIn /></a>
-                    <a href="https://www.youtube.com/@aptechcourses9503"  className="px-3 text-white f-19"><FaYoutubeSquare /></a></h6>
+                    <a href="https://www.facebook.com/appteknowcareers" className="px-3 text-white f-19 header-social header-facebook vertical-align"><FaFacebookSquare /></a>
+                    
+                    <a href="https://www.linkedin.com/company/appteknowcareers"   className="px-3 text-white f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+                    <a href="https://www.instagram.com/appteknowcareers/"  className="px-3 text-white f-19 header-social header-instagram vertical-align"><FaInstagramSquare /></a>
+                    <a href="https://www.youtube.com/@aptechcourses9503"  className="px-3 text-white f-19 header-social header-youtube vertical-align "><FaYoutubeSquare /></a></h6>
                     
                     </div>
                     <div className="col-md-2 p-1 m-0">

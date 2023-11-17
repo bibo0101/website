@@ -32,6 +32,7 @@ import TechnicalTraining from './colleges/TechnicalTraining';
 import Internship from './Internship';
 import MainFooter from './component/MainFooter';
 import Coursescart from './courses_cart';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 

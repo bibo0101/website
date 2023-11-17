@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 
-import '../App.css'
+import '../App.css';
 //import React,  from "react";
 import Slider from "react-slick";
 //import {faStar } from "react-icons/fa";
@@ -87,6 +87,17 @@ const Home = () => {
         onClick={onClick}
       />
     );
+
+
+    
+
+
+
+
+
+
+
+
   }
   return (
     <div>
@@ -170,19 +181,21 @@ const Home = () => {
             <br/>
             <br/>
             <br/>
-            <button type="btn"  className="  btn btn-lg  btn-css"><h5 className="p-2 m-0">Enquiry Now</h5></button>
+            <button type="btn"  className="  btn btn-lg  btn-css"><h4 className="p-2 m-0">Enquiry Now</h4></button>
             </div>
           </div>
           
       </SwiperSlide>   
+
+      <span className="float-right" onClick={{openenquiryform()}}><i class="bi bi-chat-dots livechat"></i></span>
         
-      <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
+      <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+        <i className="fa fa-whatsapp my-float"></i>
       </a>
 
-      <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float-right " target="_blank">
-      <i class="bi bi-chat-dots">...</i>
-      </a>
+      
+      
+      
       
         
     </Swiper>
@@ -207,7 +220,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-8 py-3 text-align-justify">
                 
-                <p class="text-align-justify mt-5 mb-5">
+                <p class="text-align-justify m-5">
                   Our premier Objective-Oriented Training Institute located in
                   BTM Layout, Bangalore, with a rich legacy spanning over two
                   decades. Our institute takes pride in training and placing a
@@ -231,7 +244,7 @@ const Home = () => {
                 </p> 
                 </div>
               <div className="col-md-4 p-3">
-                <div className="p-3 form-css">
+                <div className="p-3 form-css zoom">
                 <img src={Img4} alt="" id="image4" className="select-courses"/>
 
                 </div>
@@ -342,7 +355,7 @@ const Home = () => {
             <div class="row m-5">
               
                <div className="col-md-6 p-3">
-                <div className="p-3 form-css">
+                <div className="p-3 form-css zoom">
                 <img src={Img7} alt="" id="image4" className="h-300 w-100 select-courses"/>
                 <div className="text-center p-3">
                  <button onClick="" className="btn btn-danger">Interviews</button>
@@ -353,7 +366,7 @@ const Home = () => {
                 </div>
               </div>
               <div class="col-md-6 p-3 ">
-              <div className="p-3 form-css">
+              <div className="p-3 form-css zoom">
                 <img src={Img8} alt="" id="image4" className="h-300 w-100 select-courses"/>
                 <div className="text-center p-3">
                 <button className="btn btn-danger">Placements</button>
