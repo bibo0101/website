@@ -12,9 +12,16 @@ import '../App.css';
 //import React,  from "react";
 import Slider from "react-slick";
 //import {faStar } from "react-icons/fa";
+
+
 import { FaStar } from "react-icons/fa";
+
 import Img01 from '../Images/reactjs.gif';
+import Img011 from '../Images/bulb1.gif';
+import Img033 from '../Images/web01.png';
+
 import Img02 from '../Images/tally.png';
+import Img022 from '../Images/tally.png';
 import Img03 from '../Images/blub.gif';
 import Img04 from '../Images/Image1.png';
 import Img05 from '../Images/java1.jpg';
@@ -22,8 +29,8 @@ import Img1 from '../Images/boyys.gif';
 import Img2 from '../Images/zz.gif';
 import Img3 from '../Images/bg1.png';
 import Img4 from '../Images/Picture2.png';
-import Img5 from '../Images/jobopening.jpg';
-import Img6 from '../Images/hiring.jpg';
+import Img5 from '../Images/training.png';
+import Img6 from '../Images/interview.png';
 import Img7 from '../Images/interview.jpg';
 import Img8 from '../Images/placement.jpg';
 import Img9 from '../Images/java.png';
@@ -39,10 +46,20 @@ import Img18 from '../Images/softskill1.png';
 
 
 
-
-
-
 const Home = () => {
+
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/65586a7791e5c13bb5b137f9/1hfglvotf';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  
+
+
   // AOS.init();
   const settings = {
     dots: false,
@@ -101,6 +118,10 @@ const Home = () => {
   }
   return (
     <div>
+      
+
+
+
          <div className="swiper h-550 swiper-css">
          <Swiper 
              modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
@@ -115,7 +136,7 @@ const Home = () => {
 
 
 
-              <SwiperSlide className="image1" style={{top:"100px"}}>
+<SwiperSlide className="image1" style={{top:"100px"}}>
               <div className="cont"> 
          <img src={Img04} alt="img"  className=" homeimg " /> 
         
@@ -137,13 +158,13 @@ const Home = () => {
             <br/>
             <br/>
           <div className="mt-5 px-5">
-            <button type="btn"  className="  btn btn-lg  btn-css"><h4 className="p-2 m-0">Enquiry Now</h4></button>
+            <button type="btn"  className="  btn btn-lg  btn-css" ><h4 className="p-2 m-0">Enquiry Now</h4></button>
             </div>
           </div>
-                </SwiperSlide> 
+      </SwiperSlide>  
 
 
-  <SwiperSlide className="image1" style={{top:"100px"}}>
+<SwiperSlide className="image1" style={{top:"100px"}}>
   <img src={Img2} alt="img"  className=" mt-5 h-550 w-100 home-img"/>
         
 
@@ -163,13 +184,13 @@ const Home = () => {
           </div>
       </SwiperSlide>  
 
-      <SwiperSlide className="image1" style={{top:"100px "}}>
+<SwiperSlide className="image1" style={{top:"100px "}}>
         
-        
-         <img src={Img2} alt="img"  className=" mt-5 h-550 w-100 home-img"/>
+      <img src={Img033} alt="img"  className=" m-5"   style={{width:"800px",float:"right",height:"auto;"}}/>
+         <img src={Img011} alt="img"  className=" bulb p-3 mt-3 " />
         
 
-         <img src={Img1} alt="img"  className=" mt-5 h-550 w-100 home-img"/>
+         
           
           <div className="top-left1 text-start">
             <h1 className="font-css text-blue">Pay Upto 75% fee Once</h1>
@@ -187,7 +208,9 @@ const Home = () => {
           
       </SwiperSlide>   
 
-      <span className="float-right" onClick={{openenquiryform()}}><i class="bi bi-chat-dots livechat"></i></span>
+      {/* <span className="float-right" ><i class="bi bi-chat-dots livechat"></i></span> */}
+
+      
         
       <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
         <i className="fa fa-whatsapp my-float"></i>
@@ -195,7 +218,7 @@ const Home = () => {
 
       
       
-      
+       
       
         
     </Swiper>
@@ -203,6 +226,7 @@ const Home = () => {
 {/*************************************** *1 Block Starts here *********************************/}
      <section>
         <div className="container-fluid  py-5">
+          <div className="bggradientlightblue br-container">
 
           <div className="col-md-12 text-center">
 
@@ -210,8 +234,8 @@ const Home = () => {
           <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 text-center">
-            <h2 className="text-warning">IT Training in Bangalore to start your IT Career.</h2>
-               <h4 className="text-warning">Welcome to Appteknow Careers</h4>
+            <h2 className="text-danger">IT Training in Bangalore to start your IT Career.</h2>
+               <h4 className="text-danger">Welcome to Appteknow Careers</h4>
             </div>
             <div className="col-md-2"></div>
             </div>
@@ -251,16 +275,17 @@ const Home = () => {
               </div>
             </div>
           </div>
-
+</div>
 
        
 
 
  {/*************************************** * 1 sec ends here *********************************/}
-      <div className="container-fluid mb-5" style={{backgroundColor:"rgb(108 117 125 / 8%)"}}>
+      <div className="container-fluid br-container" >
+        <div className="m-5">
 
           <div className="col-md-12" mb-5>
-            <div class="row">
+            <div className="row">
             <div className=" col-md-4 "></div>
               <div className=" col-md-4 text-center">            
                 <h2 className="text-danger p-2 ">We are not like others!</h2>
@@ -288,6 +313,7 @@ const Home = () => {
               <div className="col-md-1 "></div>
              
             </div>
+          </div>
           </div>
           </div>
 
@@ -321,42 +347,45 @@ const Home = () => {
           </div>
 
 {/*************************************** * 3 sec ends here *********************************/}
-            <div className="container mb-5">
+
+            <div className="container-fluid  bggradientblue br-container{" >
+              <div className=" mb-5">
           <div className="col-md-12" mb-5>
             <div className="row">
               
                <div className="col-md-6 p-3">
-                <div className="p-3  mt-5 form-css">
-                <img src={Img5} alt="" id="image4" className="h-300 w-100 select-courses"/>
+                <div className="p-3  m-5 form-css zoom1">
+                <img src={Img5} alt="" id="image4" className="h-400 w-100 select-courses"/>
 
                 </div>
-                <div className="text-center">
-                  <p className="mb-3  mt-3 form-css"><h5>We Conduct Interviews Everyday</h5></p>
-                  <button type="button"  className=" btn btn-warning">Click Here</button>
+                <div className="text-center ">
+                  <p className="mb-3  mt-5 form-css"><h5 className="text-blue">We Conduct Interviews Everyday</h5></p>
+                  <button type="button"  className=" btn btn-danger">Click Here</button>
                 </div>
               </div>
               <div class="col-md-6 p-3  ">
-              <div className="p-3 mt-5 form-css">
-                <img src={Img6} alt="" id="image4" className="h-300 w-100 select-courses"/>
+              <div className="p-3 m-5 form-css zoom1">
+                <img src={Img6} alt="" id="image4" className="h-400 w-100 select-courses "/>
 
                 </div>
                 <div className=" text-center">
-                  <p className="mb-3  mt-3 form-css"><h5 className="">Our Students Get Job Every Week</h5></p>
-                  <button type="button"  className=" btn btn-warning">Click Here</button>
+                  <p className="mb-3  mt-5 form-css"><h5 className="text-blue">Our Students Get Job Every Week</h5></p>
+                  <button type="button"  className=" btn btn-danger">Click Here</button>
                 </div>
 
               </div>
             </div>
           </div>
           </div>
+          </div>
 {/*************************************** * 4 sec ends here *********************************/}
-          <div >
+          {/* <div >
             <div className="col-md-12 mb-5">
             <div class="row m-5">
               
                <div className="col-md-6 p-3">
                 <div className="p-3 form-css zoom">
-                <img src={Img7} alt="" id="image4" className="h-300 w-100 select-courses"/>
+                <img src={Img7} alt="" id="image4" className="4-300 w-100 select-courses"/>
                 <div className="text-center p-3">
                  <button onClick="" className="btn btn-danger">Interviews</button>
                   <a href="https://appteknow.com/on-going-interviews-2/" className=""/>
@@ -367,7 +396,7 @@ const Home = () => {
               </div>
               <div class="col-md-6 p-3 ">
               <div className="p-3 form-css zoom">
-                <img src={Img8} alt="" id="image4" className="h-300 w-100 select-courses"/>
+                <img src={Img8} alt="" id="image4" className="h-400 w-100 select-courses"/>
                 <div className="text-center p-3">
                 <button className="btn btn-danger">Placements</button>
                   <a href="https://appteknow.com/placements/ "></a>
@@ -378,7 +407,7 @@ const Home = () => {
             </div>
           </div>
 
-          </div>
+          </div> */}
 
 
 
@@ -662,14 +691,15 @@ const Home = () => {
 
         
 
+
 {/*************************************** * 7sec ends here *********************************/}
-        <div  className="container-fluid" style={{backgroundColor:"#ffc10717"}}>     
-        
+        <div  className="container-fluid bggradientdarkblue br-container" >     
+        <div className="m-5">
             <div className="col-md-12 m-5">
             <div class="row">
               <div class="col-md-4 "></div>
                <div className="col-md-4 p-5 " >
-                <div className="p-3 form-css zoom borderunset"  >
+                <div className="p-3 form-css zoom borderunset mb-3"  >
                 <img src={Img18} alt="" className="image4 h-300 w-100 softskill-css skillhover"  style={{borderRadius:"100%",border:"unset;"}} />
 
                 </div>
@@ -678,11 +708,12 @@ const Home = () => {
 
 
                <div className="text-center">
-                  <button className="btn btn-warning" type="btn">Click here for Details</button>
+                  <button className="btn btn-warning mb-5" type="btn">Click here for Details</button>
                 </div>
             </div>
           </div>
 
+          </div>
           </div>
           </div>
       
@@ -690,7 +721,7 @@ const Home = () => {
 {/*************************************** * Next Block Starts here *********************************/}
       {/* Start of Features */}
       <section>
-        <div className="container-fluid p-3">
+        <div className="container-fluid p-3  br-container{">
           <div className="col-md-12 p-3">
             <div className="row">
               <div className="col-md-1"></div>

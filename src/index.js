@@ -38,17 +38,19 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/website">
        <Header/>
       
       <Routes>
          {/* <Route path="header" element={<Header/>} /> */}
+         
           <Route index element={<Home />} />
           <Route index element={<Coursescart/>}/>
-          <Route path="footer" element={<Footer />}/>
+          
           <Route path='signup' element={<Signup/>}/>
          <Route path='login' element={<Loginpage/>}/>
           <Route path='fullstackjava' element={<FullstackJava/>}/>
@@ -70,9 +72,11 @@ root.render(
          <Route path='SkillsTraining' element={<SkillsTraining/>}/> 
          <Route path='TechnicalTraining' element={<TechnicalTraining/>}/>
          <Route path='Internship' element={<Internship/>}/>
+         {/* <Route path="footer" element={<Footer />}/> */}
       </Routes>
       
       <MainFooter/>
+     
     </BrowserRouter>
   </React.StrictMode>
 );

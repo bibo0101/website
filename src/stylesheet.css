@@ -80,10 +80,16 @@ body{
 }
 .form-css {
   border-radius:15px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 
   /* box-shadow: 7px 6px 8px 8px #adb5bd; */
 }
+.bggradientblue{
+  background: linear-gradient(to bottom, #99ccff 0%, #ccffff 100%);
+
+
+}
+.bggradientlightblue{background: linear-gradient(to bottom, #ffffff 30%, #66ccff 100%);}
 .input-form {
   border: none;
   border-bottom: 1px solid #495057;
@@ -94,6 +100,7 @@ body{
   border: 1px solid #fff;
   box-shadow: 0px 7px 8px 7px #dee2e6;
 }
+.bggradientdarkblue{background: linear-gradient(to top, #000066 0%, #00ffff 100%);}
 .img-css {
   border-radius: 50%;
   border: 1px solid blue;
@@ -594,6 +601,7 @@ body{
 /* ===================imagesl css starts ===================*/
 .brr{border-radius:10px 0px 0px 10px}
 .brl{border-radius:0px 10px 10px 0px}
+.br-container{ border-radius:12px;}
 .coursebtn:hover{
   font-size:large;
   color:#000000c2; 
@@ -710,7 +718,7 @@ body{
 .w-300{
   width:300px;
 }
-.h-300{height:300px;}
+.h-400{height:400px;}
 .grcolor{ background: linear-gradient(to top, #000099 0%, #99ccff 100%);}
 .softskill-css
  {
@@ -732,7 +740,14 @@ body{
         bottom: 10px;
         left: 16px;
       }
+     
       
+
+      .bulb{position: absolute;
+        width: 300px;
+        float: left;
+        bottom: 35px;
+        left: 20%;}
       .top-left {
         position: absolute;
         top: 8px;
@@ -771,6 +786,17 @@ body{
   .zoom:hover{
     transform: scale(1.3,1.3)
   }
+
+
+  .zoom1 {
+    padding: 10px;
+    transition: all 2s ease-in-out;
+    margin: 0 auto;
+  }
+  .zoom1:hover{
+    transform: scale(1.2,1.2)
+  }
+
   .h-550{height: 650px;}
 
 .borderunset{border:unset!important}
@@ -809,6 +835,11 @@ float: right;}
     font-size: 21px;
     border-radius: 100%;
 }
+/* .tawk-bubble-container img{
+  width:0px!important; 
+  height:0px!important;
+} */
+.tawk-branding{display:none!important;}
 
 .vertical-align{vertical-align: super;}
 
