@@ -17,31 +17,31 @@ import Slider from "react-slick";
 import { FaStar } from "react-icons/fa";
 
 import Img01 from '../Images/reactjs.gif';
-import Img011 from '../Images/bulb1.gif';
+import Img011 from '../Images/bulbtrans.gif';
 import Img033 from '../Images/web01.png';
 
 import Img02 from '../Images/tally.png';
 import Img022 from '../Images/tally.png';
-import Img03 from '../Images/blub.gif';
+import Img03 from '../Images/bulbtrans.gif';
 import Img04 from '../Images/Image1.png';
 import Img05 from '../Images/java1.jpg';
 import Img1 from '../Images/boyys.gif'; 
 import Img2 from '../Images/zz.gif';
 import Img3 from '../Images/bg1.png';
 import Img4 from '../Images/Picture2.png';
-import Img5 from '../Images/training.png';
-import Img6 from '../Images/interview.png';
+import Img5 from '../Images/interviewimg.jpg';
+import Img6 from '../Images/placement.jpg';
 import Img7 from '../Images/interview.jpg';
 import Img8 from '../Images/placement.jpg';
-import Img9 from '../Images/java.png';
-import Img10 from '../Images/sql.png';
-import Img11 from '../Images/python.png';
+import Img9 from '../Images/javacourse.png';
+import Img10 from '../Images/pythoncourse.png';
+import Img11 from '../Images/webdevelopment.png';
 import Img12 from '../Images/softskill.png';
-import Img13 from '../Images/mern.png';
+import Img13 from '../Images/softwaretesting.png';
 import Img14 from '../Images/django.png';
-import Img15 from '../Images/mern.png';
-import Img16 from '../Images/asp.jpg';
-import Img17 from '../Images/appti.png';
+import Img15 from '../Images/digitalmarketing.png';
+//import Img16 from '../Images/asp.jpg';
+//import Img17 from '../Images/appti.png';
 import Img18 from '../Images/softskill1.png';
 
 
@@ -142,7 +142,7 @@ const Home = () => {
         
          <img src={Img01} alt="img"  className="centered1  home-img1" style={{width:"400px",float:"none;"}}/> 
          <img src={Img02} alt="img"  className=" top-right  home-img1"/> 
-         <img src={Img03} alt="img"  className=" bottom-right1  home-img1"/> 
+         <img src={Img011} alt="img"  className=" bottom-right1 " style={{width: "300px",height:"auto",position:"absolute"}}/> 
          </div>
          
         
@@ -206,10 +206,9 @@ const Home = () => {
             </div>
           </div>
           
-      </SwiperSlide>   
+      </SwiperSlide>  
 
-      {/* <span className="float-right" ><i class="bi bi-chat-dots livechat"></i></span> */}
-
+{/* <span className="float-right" ><i class="bi bi-chat-dots livechat"></i></span> */}
       
         
       <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
@@ -220,7 +219,7 @@ const Home = () => {
       
        
       
-        
+         
     </Swiper>
          </div>
 {/*************************************** *1 Block Starts here *********************************/}
@@ -233,9 +232,9 @@ const Home = () => {
 
           <div className="row">
           <div className="col-md-2"></div>
-          <div className="col-md-8 text-center">
-            <h2 className="text-danger">IT Training in Bangalore to start your IT Career.</h2>
-               <h4 className="text-danger">Welcome to Appteknow Careers</h4>
+          <div className="col-md-8 text-center headings">
+            <h1 className="text-blue fw-700">IT Training in Bangalore to start your IT Career.</h1>
+               <h2 className="text-blue fw-500">Welcome to Appteknow Careers</h2>
             </div>
             <div className="col-md-2"></div>
             </div>
@@ -244,7 +243,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-8 py-3 text-align-justify">
                 
-                <p class="text-align-justify m-5">
+                <h5 class="text-align-justify m-5">
                   Our premier Objective-Oriented Training Institute located in
                   BTM Layout, Bangalore, with a rich legacy spanning over two
                   decades. Our institute takes pride in training and placing a
@@ -263,9 +262,9 @@ const Home = () => {
                   students in reputed MNCs, it showcases the institute's
                   commitment to quality education and effective placements. Our
                   innovative training models with Software Company Internships
-                  created a huge impact on our student’s learning curve. We are
+                  created a huge impact on our student's learning curve. We are
                   able to place all most all the students who enrolled with us.
-                </p> 
+                </h5> 
                 </div>
               <div className="col-md-4 p-3">
                 <div className="p-3 form-css zoom">
@@ -286,13 +285,13 @@ const Home = () => {
 
           <div className="col-md-12" mb-5>
             <div className="row">
-            <div className=" col-md-4 "></div>
-              <div className=" col-md-4 text-center">            
-                <h2 className="text-danger p-2 ">We are not like others!</h2>
-              <h5 className="bg-warning form-css p-2">Training along with internship & Stipend:</h5>
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+                <h1 className="text-blue fw-700">We are not like others!</h1>
+              <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2>
               </div>
 
-               <div className=" col-md-4 "></div>
+               <div className=" col-md-3 "></div>
               </div>
 
 
@@ -300,13 +299,13 @@ const Home = () => {
             <div className="col-md-1 "></div>
                <div className="col-md-10 p-3">
                 <div className="p-3 form-css text-align-justify">
-                <p className="mt-3 f-18 ">
+                <h5 className="mt-3 f-18 ">
                   Certainly! Providing software training with an internship is a distinctive and valuable 
                 feature that distinguishes our institute from others. We ensure hands-on experience by
                  involving you in real software projects undertaken by our IT Company, providing comprehensive 
                  practical exposure.Additionally, we offer a stipend based on your performance during the internship.
                   After the internship period concludes, we assist you in securing job interviews with various
-                  IT companies until  you successfully land a job. </p>
+                  IT companies until  you successfully land a job. </h5>
 
                 </div>
               </div>
@@ -322,12 +321,12 @@ const Home = () => {
 
           <div className="col-md-12" mb-5>
           <div class="row">
-            <div className=" col-md-4 "></div>
-              <div className=" col-md-4 text-center">            
-               
-              <h5 className="bg-warning form-css p-2">Pay full fee only once we place you:!</h5>
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+              <h2 className="text-blue fw-700">Pay full fee only once we place you!</h2>
+              
               </div>
-               <div className=" col-md-4 "></div>
+               <div className=" col-md-3 "></div>
               </div>
             <div className="row">
             <div className="col-md-1 "></div>
@@ -360,7 +359,7 @@ const Home = () => {
                 </div>
                 <div className="text-center ">
                   <p className="mb-3  mt-5 form-css"><h5 className="text-blue">We Conduct Interviews Everyday</h5></p>
-                  <button type="button"  className=" btn btn-danger">Click Here</button>
+                  <button type="button"  className=" btn btn-primary">Click Here</button>
                 </div>
               </div>
               <div class="col-md-6 p-3  ">
@@ -370,7 +369,7 @@ const Home = () => {
                 </div>
                 <div className=" text-center">
                   <p className="mb-3  mt-5 form-css"><h5 className="text-blue">Our Students Get Job Every Week</h5></p>
-                  <button type="button"  className=" btn btn-danger">Click Here</button>
+                  <button type="button"  className=" btn btn-primary">Click Here</button>
                 </div>
 
               </div>
@@ -412,18 +411,27 @@ const Home = () => {
 
 
 {/*************************************** * 5 sec ends here *********************************/}
-<div className="swiper h-300 sw2-css">
+<div className="swiper h-400 sw2-css">
+
+
+<div className="row mb-3">
+            <div className=" col-md-3 "></div>
+            <div className=" col-md-6 text-center">            
+                <h1 className="text-blue fw-700">Our Solutions For Our Careers</h1>
+             
+              </div>
+
+               <div className=" col-md-3 "></div>
+              </div>
+
          <Swiper 
-             modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
+             modules={[Navigation, Autoplay, Scrollbar, A11y]}
              //spaceBetween={100}
              //slidesPerView={1}
-             navigation
+             //navigation
              autoplay={{autoplay:true}}
-             pagination={{ clickable: false }}
+             //pagination={{ clickable: false }} Pagination
              scrollbar={{ draggable: true }}>
-
-
-
 
 
 
@@ -551,7 +559,7 @@ const Home = () => {
 
           <div className="col-md-4 ">
           <div className="imgcontainer" >
-        <img src={Img16} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
+        <img src={Img9} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
@@ -566,7 +574,7 @@ const Home = () => {
 
           <div className="col-md-4 ">
           <div className="imgcontainer" >
-        <img src={Img17} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
+        <img src={Img10} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
@@ -582,106 +590,9 @@ const Home = () => {
         </div>
 
         </SwiperSlide>
-        <SwiperSlide>
-        <div className="row">
-        <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img18} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary   coursebtn  brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-          <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img18} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl ">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-          <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img12} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-        </div>
-
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="row">
-        <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img14} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-          <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img15} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl ">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-          <div className="col-md-4 ">
-          <div className="imgcontainer" >
-        <img src={Img12} alt="" id="image4" className="h-300  w-100 select-courses grcolor"/>
-         
-         <div className=" bottom-left   Text-center">
-          <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
-             
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
-          </span>
-          </div>
-          </div>
-          </div>
-
-        </div>
-
-        </SwiperSlide>
+        
+{/* <div className="swiper-button-prev1"></div>
+<div className="swiper-button-next1"></div> */}
 
        
 
@@ -694,8 +605,18 @@ const Home = () => {
 
 {/*************************************** * 7sec ends here *********************************/}
         <div  className="container-fluid bggradientdarkblue br-container" >     
-        <div className="m-5">
+        <div className="m-3">
+
+
             <div className="col-md-12 m-5">
+            <div class="row p-5">
+            <div class="col-md-3 "></div> 
+            <div className=" col-md-6 text-center">            
+                <h1 className="text-blue fw-700">We Trained With Softskills</h1>
+             
+              </div>
+              <div class="col-md-3 "></div>
+              </div>
             <div class="row">
               <div class="col-md-4 "></div>
                <div className="col-md-4 p-5 " >
@@ -708,7 +629,7 @@ const Home = () => {
 
 
                <div className="text-center">
-                  <button className="btn btn-warning mb-5" type="btn">Click here for Details</button>
+                  <button className="btn btn-danger mb-5" type="btn">Click here for Details</button>
                 </div>
             </div>
           </div>

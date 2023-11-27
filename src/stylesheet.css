@@ -1,4 +1,5 @@
 body{
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 .h-50 {
@@ -13,7 +14,8 @@ body{
   position: relative;
   display: inline-block;
 }
-
+.fw-700{font-weight:700;}
+.fw-500{font-weight:500;}
 .dropdown-content {
   font-size: 18px;
   color: black;
@@ -719,6 +721,7 @@ body{
   width:300px;
 }
 .h-400{height:400px;}
+.h-500{height:500px;}
 .grcolor{ background: linear-gradient(to top, #000099 0%, #99ccff 100%);}
 .softskill-css
  {
@@ -773,10 +776,13 @@ body{
         transform: translate(-50%, -50%);
       }
   /********************************** text-over image ends*****************************************/
-
+  .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {position:relative!important;}
 
   .swiper-button-prev {top:35%!important;}
   .swiper-button-next{top:35%!important;}
+
+  .swiper-button-prev1 {top:50%!important;}
+  .swiper-button-next1{top:50%!important;} 
 
   .zoom {
     padding: 10px;
@@ -851,3 +857,8 @@ float: right;}
 /* .example{
   background: url(../Images/zz.gif) right bottom no-repeat, url(../Images/boyys.gif) left top repeat;
 } */
+.headings{    border: 1px solid #a9a9b1;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 4px 10px 3px #92929e;
+}
