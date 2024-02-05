@@ -1,8 +1,11 @@
 import React from "react";
+import { FaLinkedinIn} from "react-icons/fa";
 
-import { Navigation,Autoplay, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation,Autoplay, Pagination, Scrollbar, A11y, FreeMode} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/free-mode';
+//import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -28,7 +31,7 @@ import Img05 from '../Images/java1.jpg';
 import Img1 from '../Images/boyys.gif'; 
 import Img2 from '../Images/zz.gif';
 import Img3 from '../Images/bg1.png';
-import Img4 from '../Images/Picture2.png';
+import Img4 from '../Images/picture.png';
 import Img5 from '../Images/interviewimg.jpg';
 import Img6 from '../Images/placement.jpg';
 import Img7 from '../Images/interview.jpg';
@@ -40,6 +43,13 @@ import Img12 from '../Images/softskill.png';
 import Img13 from '../Images/softwaretesting.png';
 import Img14 from '../Images/django.png';
 import Img15 from '../Images/digitalmarketing.png';
+import Img20 from '../Images/vishwanath.png';
+import Img21 from '../Images/ravi.jpeg';
+
+import Img22 from '../Images/chandrashekhar1.jpeg';
+import Img24 from '../Images/savi.png';
+
+
 //import Img16 from '../Images/asp.jpg';
 //import Img17 from '../Images/appti.png';
 import Img18 from '../Images/softskill1.png';
@@ -267,8 +277,8 @@ const Home = () => {
                 </h5> 
                 </div>
               <div className="col-md-4 p-3">
-                <div className="p-3 form-css zoom">
-                <img src={Img4} alt="" id="image4" className="select-courses"/>
+                <div className="p-5 form-css zoom">
+                <img src={Img4} alt="" id="image4" className="select-courses" style={{width:'100%'}}/>
 
                 </div>
               </div>
@@ -288,7 +298,7 @@ const Home = () => {
             <div className=" col-md-3 "></div>
               <div className=" col-md-6 text-center headings">            
                 <h1 className="text-blue fw-700">We are not like others!</h1>
-              <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2>
+              {/* <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2> */}
               </div>
 
                <div className=" col-md-3 "></div>
@@ -299,6 +309,7 @@ const Home = () => {
             <div className="col-md-1 "></div>
                <div className="col-md-10 p-3">
                 <div className="p-3 form-css text-align-justify">
+                <h3 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h3>
                 <h5 className="mt-3 f-18 ">
                   Certainly! Providing software training with an internship is a distinctive and valuable 
                 feature that distinguishes our institute from others. We ensure hands-on experience by
@@ -306,6 +317,16 @@ const Home = () => {
                  practical exposure.Additionally, we offer a stipend based on your performance during the internship.
                   After the internship period concludes, we assist you in securing job interviews with various
                   IT companies until  you successfully land a job. </h5>
+
+                </div>
+                <div className="p-3 form-css text-align-justify">
+                <h3 className=" form-css fw-500 text-blue">Pay full fee only once we place you!</h3>
+                <h5 className="mt-3 f-18 ">
+                Pay the full fee only once we secure a placement for you.
+                   Why pay the full fee to an institute before they secure you a job? With us,
+                    you only pay up to 75% once we successfully place you. If we are unable to find a placement for you, 
+                    you will not need to pay any fee. We not only guarantee placement but also tie the fee to your placement.
+                   It becomes our responsibility to find you a job so that we can collect the remaining amount.  </h5>
 
                 </div>
               </div>
@@ -319,34 +340,7 @@ const Home = () => {
 {/*************************************** * 2 sec ends here *********************************/}
 
 
-          <div className="col-md-12" mb-5>
-          <div class="row">
-            <div className=" col-md-3 "></div>
-              <div className=" col-md-6 text-center headings">            
-              <h2 className="text-blue fw-700">Pay full fee only once we place you!</h2>
-              
-              </div>
-               <div className=" col-md-3 "></div>
-              </div>
-            <div className="row">
-            <div className="col-md-1 "></div>
-               <div className="col-md-10 p-3">
-                <div className="p-3 form-css text-align-justify">
-                <p className="f-18">Pay the full fee only once we secure a placement for you.
-                   Why pay the full fee to an institute before they secure you a job? With us,
-                    you only pay up to 75% once we successfully place you. If we are unable to find a placement for you, 
-                    you will not need to pay any fee. We not only guarantee placement but also tie the fee to your placement.
-                   It becomes our responsibility to find you a job so that we can collect the remaining amount. </p>
-
-                </div>
-              </div>
-              <div className="col-md-1 "></div>
-             
-            </div>
-          </div>
-
-{/*************************************** * 3 sec ends here *********************************/}
-
+          
             <div className="container-fluid  bggradientblue br-container{" >
               <div className=" mb-5">
           <div className="col-md-12" mb-5>
@@ -358,8 +352,8 @@ const Home = () => {
 
                 </div>
                 <div className="text-center ">
-                  <p className="mb-3  mt-5 form-css"><h5 className="text-blue">We Conduct Interviews Everyday</h5></p>
-                  <button type="button"  className=" btn btn-primary">Click Here</button>
+                  <p className="mb-3  mt-5 form-css"><h3 className="text-blue text-bold">We Conduct Interviews Everyday</h3></p>
+                  <button type="button"  className=" btn btn-outline-primary btn-lg">Click Here</button>
                 </div>
               </div>
               <div class="col-md-6 p-3  ">
@@ -368,8 +362,8 @@ const Home = () => {
 
                 </div>
                 <div className=" text-center">
-                  <p className="mb-3  mt-5 form-css"><h5 className="text-blue">Our Students Get Job Every Week</h5></p>
-                  <button type="button"  className=" btn btn-primary">Click Here</button>
+                  <p className="mb-3  mt-5 form-css"><h3 className="text-blue text-bold">Our Students Get Job Every Week</h3></p>
+                  <button type="button"  className=" btn btn-outline-primary btn-lg">Click Here</button>
                 </div>
 
               </div>
@@ -378,6 +372,8 @@ const Home = () => {
           </div>
           </div>
 {/*************************************** * 4 sec ends here *********************************/}
+
+
           {/* <div >
             <div className="col-md-12 mb-5">
             <div class="row m-5">
@@ -430,12 +426,13 @@ const Home = () => {
              //slidesPerView={1}
              //navigation
              autoplay={{autoplay:true}}
+            
              //pagination={{ clickable: false }} Pagination
              scrollbar={{ draggable: true }}>
 
 
 
-      <SwiperSlide>
+      <SwiperSlide  data-swiper-autoplay="8000">
         <div className="row">
           <div className="col-md-4 ">
           <div className="imgcontainer" >
@@ -443,10 +440,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex " style={{border:"1px solid #blue"}}>
+          <span className=" bg-dark Text-center d-flex swiper-slide1" >
              
-            <button type="btn" className=" px-2 text-start btn btn-primary coursebtn brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline coursebtn ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn  ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -461,10 +458,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn  ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -476,10 +473,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary brr coursebtn  ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn  ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -489,7 +486,7 @@ const Home = () => {
 
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide  data-swiper-autoplay="8000">
         <div className="row">
         <div className="col-md-4 ">
           <div className="imgcontainer" >
@@ -497,10 +494,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary coursebtn   brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline coursebtn  ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn  ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -512,10 +509,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary brr  coursebtn ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary brl  coursebtn  ">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline   coursebtn  ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -527,10 +524,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary brr  coursebtn ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary brl  coursebtn ">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline brr  coursebtn ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline brl  coursebtn ">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -540,7 +537,7 @@ const Home = () => {
 
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide  data-swiper-autoplay="8000">
         <div className="row">
         <div className="col-md-4 ">
           <div className="imgcontainer" >
@@ -548,10 +545,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1 ">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary brr ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline coursebtn ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -563,11 +560,11 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1 ">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary brr  coursebtn ">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary brl  coursebtn ">Add to Cart</button>
-          </span>
+             <button type="btn" className=" px-2 text-white btn btn-outline coursebtn ">Course Details</button>
+             <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn">Add to Cart</button>
+           </span>
           </div>
           </div>
           </div>
@@ -578,10 +575,10 @@ const Home = () => {
          
          <div className=" bottom-left   Text-center">
           <div className="Software Developer"></div>
-          <span className="Text-center d-flex ">
+          <span className="Text-center d-flex swiper-slide1 ">
              
-            <button type="btn" className=" px-2 text-start btn btn-primary  coursebtn  brr">Course Details</button>
-            <button type="btn" className=" px-2 text-end btn btn-primary  coursebtn  brl">Add to Cart</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline coursebtn ">Course Details</button>
+            <button type="btn" className=" px-2 text-white btn btn-outline  coursebtn">Add to Cart</button>
           </span>
           </div>
           </div>
@@ -609,17 +606,17 @@ const Home = () => {
 
 
             <div className="col-md-12 m-5">
-            <div class="row p-5">
+            <div class="row p-3">
             <div class="col-md-3 "></div> 
             <div className=" col-md-6 text-center">            
-                <h1 className="text-blue fw-700">We Trained With Softskills</h1>
+                <h2 className="text-blue fw-700">Complementary Softskills Training </h2>
              
               </div>
               <div class="col-md-3 "></div>
               </div>
             <div class="row">
               <div class="col-md-4 "></div>
-               <div className="col-md-4 p-5 " >
+               <div className="col-md-4 p-3 " >
                 <div className="p-3 form-css zoom borderunset mb-3"  >
                 <img src={Img18} alt="" className="image4 h-300 w-100 softskill-css skillhover"  style={{borderRadius:"100%",border:"unset;"}} />
 
@@ -628,9 +625,9 @@ const Home = () => {
               <div class="col-md-4 "></div>
 
 
-               <div className="text-center">
+               {/* <div className="text-center">
                   <button className="btn btn-danger mb-5" type="btn">Click here for Details</button>
-                </div>
+                </div> */}
             </div>
           </div>
 
@@ -640,9 +637,496 @@ const Home = () => {
       
       </section>   
 {/*************************************** * Next Block Starts here *********************************/}
+<section>
+<div className="container-fluid p-3  br-container" style={{backgroundColor: "#d7d6cfeb"}}>
+          <div className="col-md-12 p-3  mb-5">
+
+          <div className="col-md-12  p-5" >
+            <div className="row">
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+                <h1 className="text-blue fw-700">Choose Your Career and Order</h1>
+              {/* <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2> */}
+              </div>
+
+               <div className=" col-md-3 "></div>
+              </div>
+              </div>
+<Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
+            
+
+
+
+
+          <div className="p-5" >
+        <div className="card " >
+        <SwiperSlide><div class="card-group">
+  <div class="card">
+  <img src={Img10} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+      <h3 class="card-title text-blue text-bold">Phython</h3>
+      <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+      
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+      <small class="text-muted text-bold " >Add To Cart</small>
+    </div>
+  </div>
+ 
+</div>
+          
+          </SwiperSlide>
+        </div>
+        <SwiperSlide><div class="card-group">
+  <div class="card">
+  <img src={Img11} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+    <h3 class="card-title text-blue text-bold">Web Development</h3>
+    <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+     
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+ 
+</div></SwiperSlide>
+
+        <SwiperSlide><div class="card-group">
+  <div class="card">
+  <img src={Img12} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+    <h3 class="card-title text-blue text-bold">Softskills</h3>
+    <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+
+
+      
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+  
+  
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+ 
+  
+  <div class="card">
+  <img src={Img13} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+    <h3 class="card-title text-blue text-bold">Software Testing</h3>
+    <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+    
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+ 
+ 
+  <div class="card">
+  <img src={Img14} alt="" id="image4 text-bold" className="h-300  w-100"/>
+    <div class="card-body p-0">
+      <h5 class="card-title text-blue">JAVA</h5>
+      <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+      
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart ">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+  
+ 
+  <div class="card">
+  <img src={Img15} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+    <h3 class="card-title text-blue text-bold">Django</h3>
+ 
+    <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold " >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+  
+ 
+  <div class="card">
+  <img src={Img11} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+    <h3 class="card-title text-blue text-bold">Digital Marketing</h3>
+    <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+      
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+ 
+ 
+  <div class="card">
+  <img src={Img9} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+      <h3 class="card-title text-blue text-bold">JAVA</h3>
+      <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+     
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div class="card-group">
+ 
+ 
+  <div class="card">
+  <img src={Img12} alt="" id="image4" className="h-300  w-100"/>
+    <div class="card-body p-0">
+      <h3 class="card-title text-blue text-bold">Javascript</h3>
+      <h6 class="card-title "><span className="text-gray"><del>INR 18000.00</del></span><span className="text-blue text-bold" >&nbsp;INR 80000.00</span></h6>
+      
+    </div>
+    <div className="text-yellow">
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar checked />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                          <span className="">
+                            <FaStar />
+                          </span>
+                        </div>
+    <div class="card-footer text-cart">
+    <small class="text-muted text-bold" >Add To Cart</small>
+    </div>
+  </div>
+</div></SwiperSlide>
+</div>
+      </Swiper>
+      </div>
+      </div>
+      
+      </section>
+
+ {/******************************* * Linkedin profiles  ****************************************/}
+
+<section>
+<div className="container-fluid p-3  br-container" style={{backgroundColor: "#ffffff"}}>
+          <div>
+
+          <div className="col-md-12  py-2" >
+            <div className="row">
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+                <h2 className="text-blue fw-700">Our Expert Training Team at Your Service</h2>
+              {/* <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2> */}
+              </div>
+
+               <div className=" col-md-3 "></div>
+              </div>
+              </div>
+
+              <div className=" col-md-12 " >
+            <div className="row">
+            
+              <div className=" col-md-12 text-center ">             
+<Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
+            
+
+
+
+
+          <div className="p-5" >
+        <div className="card " >
+        <SwiperSlide><div className="card-group border-css">
+  <div class="card">
+  <img src={Img20} alt="" id="image4" className="h-300  w-100"/>
+    <div className="card-body p-0">
+      <h4 className="card-title text-blue text-bold">Vishwanath Gowda</h4>
+      <h6 className="card-title "><span className="text-blue text-bold" >Training Head and Manager</span></h6>
+      
+    </div>
+    
+    <div className="card-footer ">
+      <small className="text-muted text-bold "> 10 Yrs Exp.</small>
+      
+    </div>
+    <a href="https://www.linkedin.com/in/vishwanath-gowda/"   className="px-3 text-gray f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+  </div>
+ 
+</div>
+          
+          </SwiperSlide>
+          <SwiperSlide><div className="card-group border-css">
+  <div class="card">
+  <img src={Img24} alt="" id="image4" className="h-300  w-100"/>
+    <div className="card-body p-0">
+      <h4 className="card-title text-blue text-bold">Savitri Rani</h4>
+      <h6 className="card-title "><span className="text-blue text-bold" >Trainer and Frontend Developer</span></h6>
+      
+    </div>
+    
+    <div className="card-footer ">
+      <small className="text-muted text-bold "> 8 Yrs Exp.</small>
+      
+    </div>
+    <a href="https://www.linkedin.com/in/vishwanath-gowda/"   className="px-3 text-gray f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+  </div>
+ 
+</div>
+          
+          </SwiperSlide>
+         
+        </div>
+        <SwiperSlide><div class="card-group border-css">
+        <div class="card">
+  <img src={Img22} alt="" id="image4" className="h-300  w-100"/>
+    <div className="card-body p-0">
+      <h4 className="card-title text-blue text-bold">Chandrashekhar P</h4>
+      <h6 className="card-title "><span className="text-blue text-bold" >Trainer</span></h6>
+      
+    </div>
+    
+    <div className="card-footer ">
+      <small className="text-muted text-bold "> 22 Yrs Exp.</small>
+      
+    </div>
+    <a href="https://www.linkedin.com/in/chandrasekhar-pasupuleti-336339274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"   className="px-3 text-gray f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+  </div>
+ 
+</div></SwiperSlide>
+
+        <SwiperSlide><div class="card-group border-css">
+        <div className="card">
+  <img src={Img10} alt="" id="image4" className="h-300  w-100"/>
+    <div className="card-body p-0">
+      <h4 className="card-title text-blue text-bold">Jerusha Joseph</h4>
+      <h6 className="card-title "><span className="text-blue text-bold" >Trainer </span></h6>
+      
+    </div>
+    
+    <div className="card-footer ">
+      <small className="text-muted text-bold "> 10 Yrs Exp.</small>
+      
+    </div>
+    <a href="https://www.linkedin.com/in/ravi-kumar-873ab732/"   className="px-3 text-gray f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+  </div>
+  
+</div></SwiperSlide>
+<SwiperSlide><div class="card-group border-css">
+        <div className="card">
+  <img src={Img21} alt="" id="image4" className="h-300  w-100"/>
+    <div className="card-body p-0">
+      <h4 className="card-title text-blue text-bold">Ravi Kumar</h4>
+      <h6 className="card-title "><span className="text-blue text-bold" >Trainer </span></h6>
+      
+    </div>
+    
+    <div className="card-footer ">
+      <small className="text-muted text-bold "> 18 Yrs Exp.</small>
+      
+    </div>
+    <a href="https://www.linkedin.com/in/ravi-kumar-873ab732/"   className="px-3 text-gray f-19 header-social header-linkedin vertical-align"><FaLinkedinIn /></a>
+  </div>
+  
+</div></SwiperSlide>
+
+
+        <SwiperSlide><div class="card-group">
+ 
+  
+       
+</div></SwiperSlide>
+       
+     
+      
+       
+       
+</div>
+      </Swiper>
+      </div>
+      
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      
+      </section>
+ {/* *******************************Linked profile ends here *************************/}
+
       {/* Start of Features */}
       <section>
-        <div className="container-fluid p-3  br-container{">
+        <div className="container-fluid p-3  br-container">
           <div className="col-md-12 p-3">
             <div className="row">
               <div className="col-md-1"></div>
