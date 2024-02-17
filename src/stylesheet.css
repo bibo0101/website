@@ -96,6 +96,13 @@ box-shadow: 0px 14px 7px 12px#ccc;
 
 
 }
+
+.h-500{ height:500px;}
+.bggradientblue{
+  background: linear-gradient(to bottom, #212529 0%, #ccffff 100%);
+
+
+}
 .bggradientlightblue{background: linear-gradient(to bottom, #ffffff 30%, #66ccff 100%);}
 .input-form {
   border: none;

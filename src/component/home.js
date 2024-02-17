@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedinIn} from "react-icons/fa";
 
-import { Navigation,Autoplay, Pagination, Scrollbar, A11y, FreeMode} from 'swiper/modules';
+import { Navigation,Autoplay, Pagination, Scrollbar, A11y, FreeMode, EffectCoverflow} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-
+import 'swiper/css/effect-coverflow';
 import '../App.css';
 //import React,  from "react";
 import Slider from "react-slick";
@@ -48,11 +48,43 @@ import Img21 from '../Images/ravi.jpeg';
 
 import Img22 from '../Images/chandrashekhar1.jpeg';
 import Img24 from '../Images/savi.png';
+import Img25 from '../Images/jerusha.png';
 
 
 //import Img16 from '../Images/asp.jpg';
 //import Img17 from '../Images/appti.png';
 import Img18 from '../Images/softskill1.png';
+ import Img30 from '../Images/apptek1.jpg';
+
+import Img31 from '../Images/apptek2.jpeg';
+import Img32 from '../Images/apptek3.jpeg';
+import Img33 from '../Images/apptek4.jpg';
+import Img34 from '../Images/apptek5.jpeg';
+import Img35 from '../Images/apptek6.jpg';
+import Img36 from '../Images/apptek7.jpeg';
+import Img37 from '../Images/apptek8.jpg';
+import Img38 from '../Images/apptek9.jpg';
+import Img39 from '../Images/apptek10.jpg';
+import Img40 from '../Images/apptek11.jpg';
+import Img41 from '../Images/apptek12.jpeg';
+import Img42 from '../Images/apptek13.jpg';
+import Img43 from '../Images/apptek1.jpg';
+import Img44 from '../Images/apptek14.png';
+import Img45 from '../Images/apptek15.jpg';
+import Img46 from '../Images/apptek16.jpg';
+import Img47 from '../Images/apptek17.jpg';
+import Img48 from '../Images/apptek18.jpg';
+//import Img49 from '../Images/apptek19.jpeg';
+import Img50 from '../Images/apptek20.jpeg';
+import Img51 from '../Images/apptek21.jpeg';
+import Img52 from '../Images/apptek22.jpeg';
+import Img53 from '../Images/apptek23.jpeg';
+import Img54 from '../Images/apptek24.jpeg';
+import Img55 from '../Images/apptek25.jpeg';
+import Img56 from '../Images/apptek26.jpeg';
+//import Img57 from '../Images/apptek27.jpeg';
+
+
 
 
 
@@ -1067,7 +1099,7 @@ const Home = () => {
 
         <SwiperSlide><div class="card-group border-css">
         <div className="card">
-  <img src={Img10} alt="" id="image4" className="h-300  w-100"/>
+  <img src={Img25} alt="" id="image4" className="h-300  w-100"/>
     <div className="card-body p-0">
       <h4 className="card-title text-blue text-bold">Jerusha Joseph</h4>
       <h6 className="card-title "><span className="text-blue text-bold" >Trainer </span></h6>
@@ -1123,9 +1155,194 @@ const Home = () => {
       
       </section>
  {/* *******************************Linked profile ends here *************************/}
+{/************************************* Gallery *************************************/}
+<section>
+
+<div className="col-md-12  py-2" >
+            <div className="row">
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+                <h2 className="text-blue fw-700">Our  Gallery</h2>
+              {/* <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2> */}
+              </div>
+
+               <div className=" col-md-3 "></div>
+              </div>
+              </div>
+ <div className="m-5  p-5 bggradientblue" style={{    borderRadius: '10px'}}> 
+
+
+
+ 
+<div className="container   br-container p-0" >
+    <div className=" mb-0">
+          <div className="col-md-12" mb-5>
+            <div className="row">
+              
+               <div className="col-md-3 p-1">
+                <div className="p-1 form-css zoom1">
+                <img src={Img30} alt="" id="image4" className="h-300 w-100 select-courses-g"/>
+
+                </div>
+               
+              </div>
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img31} alt="" id="image4" className="h-300 w-100 select-courses-g "/>
+
+                </div>
+              
+
+              </div>
+
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img32} alt="" id="image4" className="h-300 w-100 select-courses "/>
+
+                </div>
+               
+
+              </div>
+
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img33} alt="" id="image4" className="h-300 w-100 select-courses "/>
+
+                </div>
+              
+
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+      
+         
+              <div className=" mb-0">
+          <div className="col-md-12" >
+            <div className="row">
+              
+               <div className="col-md-3 p-1">
+                <div className="p-1 form-css zoom1">
+                <img src={Img34} alt="" id="image4" className="h-300 w-100 select-courses"/>
+
+                </div>
+               
+              </div>
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img35} alt="" id="image4" className="h-300 w-100 select-courses "/>
+
+                </div>
+              
+
+              </div>
+
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img36} alt="" id="image4" className="h-300 w-100 select-courses "/>
+
+                </div>
+               
+
+              </div>
+
+              <div class="col-md-3 p-1  ">
+              <div className="p-1  form-css zoom1">
+                <img src={Img37} alt="" id="image4" className="h-300 w-100 select-courses "/>
+
+                </div>
+              
+
+              </div>
+            </div>
+          </div>
+          </div>
+        
+ </div>          
+          </section>    
+
+
+          <div className="col-md-12  py-2" >
+            <div className="row">
+            <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">            
+                <h2 className="text-blue fw-700">Our Gallery</h2>
+              {/* <h2 className=" form-css fw-500 text-blue">Training along with internship & Stipend:</h2> */}
+              </div>
+
+               <div className=" col-md-3 "></div>
+              </div>
+              </div>
+          <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"  >
+
+
+      <div className= "container">   
+        <div className="col-md-12" >
+        <div className="row" >
+        <div className=" col-md-3 "></div>
+              <div className=" col-md-6 text-center headings">   
+        
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" style={{height:"400px",width:"1000px"}} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="" style={{height:"400px",width:"1000px"}} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt="" style={{height:"400px",width:"1000px"}}/>
+        </SwiperSlide>
+        <div className=" col-md-3 "></div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </Swiper>
+
+     
+
+
+
+
+
+
+
+
 
       {/* Start of Features */}
-      <section>
+      {/* <section>
         <div className="container-fluid p-3  br-container">
           <div className="col-md-12 p-3">
             <div className="row">
@@ -1216,9 +1433,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Start of accreditattion */}
-      <section>
+      {/* <section>
         <div className="container-fluid p-3 acc" style={{}}>
           <div className="p-5">
             <div className="col-md-12 text-center">
@@ -1281,9 +1498,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Start of accreditattion */}
-      <section>
+      {/* <section>
         <div className="container-fluid p-3">
           <div className="col-md-12 p-3">
             <div className="row">
@@ -1429,8 +1646,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <div className="container">
           <div className="col-md-12">
             <div className="row">
@@ -1440,9 +1657,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Start of student testimonial */}
-      <section>
+      {/* <section>
         <div className="container">
           <div className="col-md-12">
             <div className="row">
@@ -1450,7 +1667,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="container">
           <div className="col-md-12">
@@ -1464,7 +1681,7 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="container-fluid">
+        <div className="container-fluid p-3">
           <h2 className="text-center p-3">Custom Arrows</h2>
           <div className="col-md-12 px-5">
             <div className="row">
@@ -1592,7 +1809,7 @@ const Home = () => {
         </div>
       </section>
       {/* End of Student Testimonial */}
-      <section>
+      {/* <section>
         <div className="container p-5">
           <div className="col-md-12">
             <div className="row">
@@ -1609,10 +1826,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Ends of FOR MORE TESTIMONIAL */}
 
-      <section>
+      {/* <section>
         <div
           className="container-fluid p-3"
           style={{ backgroundColor: "#deecef61" }}
@@ -1723,8 +1940,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <div className="container-fluid p-3">
           <div className="col-md-12 p-3">
             <div className="row">
@@ -1815,117 +2032,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div
-          className="container-fluid p-3"
-          style={{ backgroundColor: "#deecef61" }}
-        >
-          <div className="col-md-12  p-5">
-            <div className="row">
-              <div className="col-md-3"></div>
-              <div className="col-md-6">
-                {/* <h1 className="f-dgray fw-500 text-center">Top Trending Courses</h1> */}
-                <h2 className=" f-dgray fw-500 text-center">Chennai</h2>
-              </div>
-              <div className="col-md-3"></div>
-            </div>
-          </div>
+      </section> */}
 
-          <div className="container-fluid p-3">
-            <div className="col-md-12 p-3">
-              <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img
-                      src="./Appteknow.png"
-                      alt=""
-                      className="img-css text-center "
-                    />
-                    <h4>Real Time Expert As Trainer..</h4>
-                    <p>
-                      At Appteknow Careers, You will Learn from the Experts from
-                      industry who are Passionate in sharing their Knowledge
-                      with Learners. Get Personally Mentored by the Experts.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img src="./Appteknow.png" alt="" className="img-css" />
-                    <h4>Real Time Expert As Trainer</h4>
-                    <p>
-                      Get an Opportunity to work in Real-time Projects that will
-                      give you a Deep Experience. Showcase your Project
-                      Experience & Increase your chance of getting Hired!
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img src="./Appteknow.png" alt="" className="img-css" />
-                    <h4>Real Time Expert As Trainer</h4>
-                    <p>
-                      Get Certified by Appteknow Careers. Also, get Equipped to
-                      Clear Global Certifications. 72% Appteknow Careers
-                      Students appear for Global Certifications and 100% of them
-                      Clear it.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-12 p-3">
-              <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img
-                      src="./Appteknow.png"
-                      alt=""
-                      className="img-css text-center "
-                    />
-                    <h4>Real Time Expert As Trainer..</h4>
-                    <p>
-                      At Appteknow Careers, You will Learn from the Experts from
-                      industry who are Passionate in sharing their Knowledge
-                      with Learners. Get Personally Mentored by the Experts.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img src="./Appteknow.png" alt="" className="img-css" />
-                    <h4>Real Time Expert As Trainer</h4>
-                    <p>
-                      Get an Opportunity to work in Real-time Projects that will
-                      give you a Deep Experience. Showcase your Project
-                      Experience & Increase your chance of getting Hired!
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-3 box-css text-center p-3">
-                  <div>
-                    <img src="./Appteknow.png" alt="" className="img-css" />
-                    <h4>Real Time Expert As Trainer</h4>
-                    <p>
-                      Get Certified by Appteknow Careers. Also, get Equipped to
-                      Clear Global Certifications. 72% Appteknow Careers
-                      Students appear for Global Certifications and 100% of them
-                      Clear it.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
